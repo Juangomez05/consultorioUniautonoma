@@ -10055,3 +10055,13 @@ h4, h5, h6 {
   font-weight: bold;
   transform: rotate(45deg);
 }
+
+@media (max-width: 768px) {
+  .logo-container {
+      display: none;
+  }
+  .navbar {
+      left: 0 !important;
+      width: 100% !important;
+  }
+}
