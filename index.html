@@ -26,42 +26,47 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-<!-- Header Start -->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-2 logo-container" style="padding-right: 0px; padding-left: 0px; position: fixed; top: 0; z-index: 1000;">
-            <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                <img class="logo img-fluid" style="height: 85px; width: 250px;" src="img/logo_elab_uni.jpg" alt="Logo">
-            </a>
-        </div>
-        <div class="col-lg-10 offset-lg-2" style="padding-left: 0px;">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light p-0" style="position: fixed; top: 0; left: 250px; width: calc(100% - 250px); z-index: 1000;">
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav mr-auto py-0">
-                        <a href="#hero" class="nav-item nav-link active">Inicio</a>
-                        <a href="#about" class="nav-item nav-link">Nosotros</a>
-                        <a href="#service" class="nav-item nav-link">Servicios</a>
-                        <a href="#team" class="nav-item nav-link">Expertos</a>
+    <!-- Header Start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 logo-container"
+                style="padding-right: 0px; padding-left: 0px; position: fixed; top: 0; z-index: 1000;">
+                <a href="index.html"
+                    class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <img class="logo img-fluid" style="height: 85.5px; width: 250px;" src="img/logo_elab_uni.jpg"
+                        alt="Logo">
+                </a>
+            </div>
+            <div class="col-lg-10 offset-lg-2" style="padding-left: 0px;">
+                <nav class="navbar navbar-expand-lg bg-white navbar-light p-0"
+                    style="position: fixed; top: 0; left: 250px; width: calc(100% - 250px); z-index: 1000;">
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse" style="background: #1E0144;">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="#carousel" class="nav-item nav-link active">Inicio</a>
+                            <a href="#about" class="nav-item nav-link">Nosotros</a>
+                            <a href="#service" class="nav-item nav-link">Servicios</a>
+                            <a href="#team" class="nav-item nav-link">Expertos</a>
+                        </div>
+                        <a href="" class="btn btn-primary mr-3 d-none d-lg-block">Te ayudamos</a>
                     </div>
-                    <a href="" class="btn btn-primary mr-3 d-none d-lg-block">Te ayudamos</a>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
     </div>
-</div>
-<!-- Header End -->
+    <!-- Header End -->
 
 
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 pb-5">
+    <div id="carousel" class="container-fluid p-0 mb-5 pb-5">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
@@ -119,23 +124,25 @@
     <!-- Carousel End -->
 
     <!-- About Start -->
-    <div id="about" class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-5">
-                    <img class="img-fluid rounded" src="img/about_1.jpg" alt="">
-                </div>
-                <div class="col-lg-7 mt-4 mt-lg-0">
-                    <h6 class="text-uppercase">Sobre nosotros</h6>
-                    <h1 class="mb-4">Somos tu aliado confiable en asesorías y consultorías empresariales.</h1>
-                    <p>El centro de propulsión al emprendedor es un espacio académico que une a emprendedores,
-                        estudiantes y mentores de Emprendelab. !Un consultorio empresarial gratuito de la Uniautónoma
-                        del Cauca para la región, donde impulsamos tus metas empresariales!</p>
-                    <a href="" class="btn btn-primary mt-2">Haga clic aquí</a>
+    <section id="about">
+        <div  class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img class="img-fluid rounded" src="img/about_1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-7 mt-4 mt-lg-0">
+                        <h6 class="text-uppercase">Sobre nosotros</h6>
+                        <h1 class="mb-4">Somos tu aliado confiable en asesorías y consultorías empresariales.</h1>
+                        <p>El centro de propulsión al emprendedor es un espacio académico que une a emprendedores,
+                            estudiantes y mentores de Emprendelab. !Un consultorio empresarial gratuito de la Uniautónoma
+                            del Cauca para la región, donde impulsamos tus metas empresariales!</p>
+                        <a href="" class="btn btn-primary mt-2">Haga clic aquí</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- About End -->
 
 
@@ -211,7 +218,7 @@
                 <div class="col-12">
                     <div class="bg-primary rounded" style="height: 200px;"></div>
                     <div class="owl-carousel team-carousel position-relative"
-                        style="margin-top: -170px; padding: 0 20px;">
+                        style="margin-top: -120px; padding: 0 20px;">
                         <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
                             <h5 class="mb-2 px-4">Isabel Tobar Estrada</h5>
                             <p class="mb-3 px-4">Dir. Posicionamiento</p>
@@ -343,17 +350,20 @@
                 </a>
                 <p>Haz que suceda</p>
                 <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://web.facebook.com/uniautonomadc/?locale=es_LA&_rdc=1&_rdr"><i
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2"
+                        href="https://web.facebook.com/uniautonomadc/?locale=es_LA&_rdc=1&_rdr"><i
                             class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.linkedin.com/company/emprendelab/?originalSubdomain=co"><i
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2"
+                        href="https://www.linkedin.com/company/emprendelab/?originalSubdomain=co"><i
                             class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="https://www.instagram.com/emprende_lab/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square"
+                        href="https://www.instagram.com/emprende_lab/"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="font-weight-semi-bold text-primary mb-4">Nuestros links</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="#carrousel"><i class="fa fa-angle-right mr-2"></i>Home</a>
                     <a class="text-white mb-2" href="#about"><i class="fa fa-angle-right mr-2"></i>Nosotros</a>
                     <a class="text-white mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i>Servicios</a>
                     <a class="text-white mb-2" href="#team"><i class="fa fa-angle-right mr-2"></i>Profesionales</a>
@@ -372,7 +382,8 @@
         </div>
         <div class="row p-4 mt-5 mx-0" style="background: rgba(256, 256, 256, .05);">
             <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a class="font-weight-bold" href="#">Consultorio Empresarial Uniautónoma</a>. All Rights
+                <p class="m-0 text-white">&copy; <a class="font-weight-bold" href="#">Consultorio Empresarial
+                        Uniautónoma</a>. All Rights
                     Reserved.</p>
             </div>
             <div class="col-md-6 text-center text-md-right">
