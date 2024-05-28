@@ -1103,3 +1103,11 @@ h6 {
   color: #fff;
   text-decoration: none;
 }
+
+.text-span-blue > span{
+  color: #000cba;
+}
+.text-span-blue:hover >span{
+  color: #fff;
+}
+
