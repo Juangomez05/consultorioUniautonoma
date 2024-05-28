@@ -359,9 +359,19 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
-/* Posición logo emprendelab */ 
-.logo-img {
-  display: none;
+
+/* Mostrar el logo en pantallas grandes */
+@media (min-width: 992px) {
+  .logo-img {
+    display: inline-block;
+  }
+}
+
+/* Ocultar el logo en pantallas pequeñas */
+@media (max-width: 991px) {
+  .logo-img {
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
